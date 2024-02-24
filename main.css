@@ -1,0 +1,83 @@
+#mainhed {
+  margin-left: 32%;
+  margin-top: 2.5%;
+}
+#headers {
+  border: 3px solid black;
+  border-radius: 20px;
+  width: 70%;
+  margin-left: 5%;
+  position: absolute;
+  top: 15%;
+  box-shadow:
+  1px 1px 12px gray,
+  -1px -1px 12px gray;
+}
+#headers li {
+    display: inline;
+    font-size: 32px;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 11.2%;
+    padding-right: 11.2%;
+    border-radius: 1em;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+#headers>ul>li:hover {
+  box-shadow:
+  1px 1px 8px gray,
+  -1px -1px 8px gray;
+}
+#vinyl {
+  position: absolute;
+  top: 30%;
+  margin-left: 5%;
+  border: 3px solid black;
+  border-radius: 20px;
+  width: 70%;
+  box-shadow:
+  1px 1px 12px gray,
+  -1px -1px 12px gray;
+}
+#vinyl li {
+  display: inline-block;
+}
+figure {
+  padding: 10px;
+  border: 2px solid rgba(255, 255, 255, 0);
+  border-radius: 10px;
+  box-shadow:
+  1px 1px 8px gray,
+  -1px -1px 8px gray;
+}
+figure figcaption {
+  margin-top: 10px;
+  margin-left: 100px;
+}
+body {
+  font-family: helvetica;
+}
+#auth {
+  border: 3px solid black;
+  height: 20%;
+  width: 21%;
+  position: absolute;
+  right: 1%;
+  top: 15%;
+  border-radius: 20px;
+  box-shadow:
+  1px 1px 12px gray,
+  -1px -1px 12px gray;
+}
+#auth label {
+  display: block;
+  float: left;
+  width: 70px;
+  height: 15px;
+}
+#auth h3 {
+  font-size: 24px;
+}
+#auth h3, label, button {
+  margin-left: 50px;
+}

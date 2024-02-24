@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Магазин виниловых пластинок</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <h1 id="mainhed">Магазин "ГрамВинил"</h1> <br />
+    <div id="headers">
+      <ul>
+        <li>Главная</li>
+        <li>Каталог</li>
+        <li>Контакты</li>
+      </ul>
+    </div>
+    <div id="vinyl">
+      <ul>
+        <li>
+          <figure class="covers">
+            <img src="images\cryptopsy.jpg" align="bottom"></img>
+            <figcaption>4800 рублей</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="covers">
+            <img src="images\death_grips.jpeg" height="300" width="300" align="bottom"></img>
+            <figcaption>3500 рублей</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="covers">
+            <img src="images\depeche_mode.jpg" height="300" width="300" align="bottom"></img>
+            <figcaption>6000 рублей</figcaption>
+          </figure>
+        </li>
+      </ul>
+    </div>
+    <div id="auth">
+      <h3>Авторизация</h3>
+      <form>
+        <p>
+          <label>Логин:</label>
+          <input id="login" type="text" name="name" maxlength="20" required="required" class="inp" />
+        </p>
+          <label>Пароль:</label>
+          <input id="passwd" type="password" name="passw" maxlength="20" required="required" class="inp" id="pass_inp" />
+        </p>
+        <button type="button" onclick="get_log()">Проверка</button>
+      </form>
+    </div>
+    <script src="auth_check.js"></script>
+  </body>
+</html>
