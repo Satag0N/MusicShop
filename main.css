@@ -59,7 +59,7 @@ body {
 }
 #auth {
   border: 3px solid black;
-  height: 20%;
+  height: 30%;
   width: 21%;
   position: absolute;
   right: 1%;
@@ -73,11 +73,51 @@ body {
   display: block;
   float: left;
   width: 70px;
-  height: 15px;
+  height: 20px;
+  margin-top: 12px;
+  font-size: 18px;
+  margin-left: 30px;
+}
+#auth input {
+  margin-bottom: 3px;
+  padding-bottom: 10px;
 }
 #auth h3 {
   font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
 }
-#auth h3, label, button {
-  margin-left: 50px;
+#auth input {
+  border-radius: 5px;
+}
+#auth button {
+  background: linear-gradient(white, gray);
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin-left: 135px;
+}
+#auth button:hover {
+  background: linear-gradient(gray, white);
+}
+#auth button:active {
+  background: radial-gradient(white 50%, gray)
+}
+#login {
+  background-image: url("icons/login.png");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: 6px 10px;
+  padding-left: 35px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+#passwd {
+  background-image: url("icons/password.png");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: 6px 10px;
+  padding-left: 35px;
+  padding-top: 10px;
+  font-size: 20px;
 }
